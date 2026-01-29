@@ -25,7 +25,7 @@ async function startWorker() {
   const channel = await conn.createChannel();
   await channel.assertQueue(QUEUE, { durable: true });
 
-  console.log('Worker started. Waiting for messages...');
+  console.log('Worker started. Waiting for messages');
 
   channel.consume(QUEUE, async (msg) => {
     if (!msg) return;
