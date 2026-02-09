@@ -36,13 +36,13 @@ architecture, setup, and **example worker + queue + DB code**.
 
 
 API / Client
-    ↓
+    =>
 Add Job to Queue
-    ↓
+    =>
 Queue (FIFO)
-    ↓
+    =>
 Worker Process
-    ↓
+    =>
 Database
 ## 📦 Installation
 
