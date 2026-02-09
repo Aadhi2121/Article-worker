@@ -1,3 +1,4 @@
 data/
 .env
 .gitignore
+node_modules/
