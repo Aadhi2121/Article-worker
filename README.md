@@ -47,8 +47,8 @@ Database
 ## 📦 Installation
 
 
--git clone https://github.com/your-username/article-worker.git
--cd article-worker
--npm install
+- git clone https://github.com/your-username/article-worker.git
+- cd article-worker
+- npm install
 
 ```text
